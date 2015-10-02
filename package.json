@@ -1,0 +1,28 @@
+{
+  "name": "passive-aggressor",
+  "version": "0.0.0",
+  "description": " Passive voice obliterator for Common Form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anseljh/passive-aggressor.git"
+  },
+  "keywords": [
+    "law",
+    "contracts",
+    "document",
+    "assembly",
+    "language",
+    "writing",
+    "english"
+  ],
+  "author": "Ansel Halliburton",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/anseljh/passive-aggressor/issues"
+  },
+  "homepage": "https://github.com/anseljh/passive-aggressor#readme"
+}
