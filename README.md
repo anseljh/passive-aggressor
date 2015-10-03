@@ -1,6 +1,6 @@
 # Passive Aggressor
 
-**Passive Aggressor** is a passive voice obliterator for contracts in [Common Form](https://github.com/commonform). It will be a support module for [commonform-critique](https://github.com/commonform/commonform-critique).
+Passive Aggressor is a passive voice obliterator for contracts in [Common Form](https://github.com/commonform). It is an annotator module for [commonform-critique](https://github.com/commonform/commonform-critique).
 
 So far, Passive Aggressor relies on the simple [passive-voice](https://github.com/btford/passive-voice) module by [btford](https://github.com/btford).
 
