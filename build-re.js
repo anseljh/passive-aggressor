@@ -2,7 +2,8 @@ var irregularVerbs = require('english-irregular-verbs');
 
 // Extract all past participles.
 var irregularParticiples = [];
-irregularVerbs.forEach(function(verb) {
+Object.keys(irregularVerbs).forEach(function(infinitive) {
+  var verb = irregularVerbs[infinitive];
   verb.participles.forEach(function(participle) {
     irregularParticiples.push(participle);
   });
