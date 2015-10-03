@@ -26,3 +26,16 @@ assert.deepEqual(
       url: null } ]
 )
 ```
+
+From [orrick-commonform/board-resolutions.commonform](https://github.com/commonform/commonform-orrick/blob/master/board-resolutions.commonform):
+
+```javascript
+assert.deepEqual(
+  passiveAggressor( { content: [ "Resolved further: That each stock sale authorized in the above resolution shall be made pursuant to a stock purchase agreement in substantially the form attached hereto as {Form(s) Of Stock Purchase Agreement}." ] } ),
+  [ { message: 'The phrase "be made" is passive voice.',
+      level: 'info',
+      path: [ 'content', 0 ],
+      source: 'passive-aggressor',
+      url: null } ]
+)
+```
