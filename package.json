@@ -1,6 +1,6 @@
 {
   "name": "passive-aggressor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": " Passive voice obliterator for Common Form",
   "main": "index.js",
   "scripts": {
@@ -29,8 +29,8 @@
     "passive-voice": "^0.1.0"
   },
   "peerDependencies": {
-      "commonform": "1.x"
-    },
+    "commonform": "1.x"
+  },
   "devDependencies": {
     "defence-cli": "^1.0.1",
     "replace-require-self": "^1.0.0"
