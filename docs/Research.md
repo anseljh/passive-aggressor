@@ -4,11 +4,11 @@
 * Grammar.com, [Verb "To Be"](http://www.grammar.com/verb-to-be/)
 
 ## Tools
+* [natural](https://github.com/NaturalNode/natural)
 * [passive-voice](https://github.com/btford/passive-voice)
 * [Stanford CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml)
 * [Stanford Log-linear Part-Of-Speech Tagger](http://nlp.stanford.edu/software/tagger.shtml)
 * [wordpos](https://github.com/moos/wordpos): Node.js part-of-speech utilities using natural's WordNet module
-* [natural](https://github.com/NaturalNode/natural)
 * [After the Deadline](http://open.afterthedeadline.com) by Automattic
 * LanguageTool (LGPL)
   * [Website](https://languagetool.org)
