@@ -28,6 +28,9 @@
   "dependencies": {
     "passive-voice": "^0.1.0"
   },
+  "peerDependencies": {
+      "commonform": "1.x"
+    },
   "devDependencies": {
     "defence-cli": "^1.0.1",
     "replace-require-self": "^1.0.0"
