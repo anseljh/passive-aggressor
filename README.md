@@ -6,7 +6,7 @@ So far, Passive Aggressor relies on the simple [passive-voice](https://github.co
 
 License: Apache 2.0
 
-## Tests:
+## Tests
 
 ```javascript
 var passiveAggressor = require('passive-aggressor')
@@ -14,6 +14,10 @@ var assert = require('assert')
 
 assert.deepEqual(
   passiveAggressor({ content: [ 'Bob was hit by a bus.' ] }),
-  [{'index': 4, 'offset': 7}]
+  [ { message: 'The phrase "was hit" is passive voice.',
+    level: 'info',
+    path: [ 'content', 0 ],
+    source: 'passive-aggressor',
+    url: null } ]
 )
 ```
