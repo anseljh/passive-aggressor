@@ -30,9 +30,6 @@
   "dependencies": {
     "commonform-regexp-annotator": "^1.1.0"
   },
-  "peerDependencies": {
-    "commonform": "1.x"
-  },
   "devDependencies": {
     "defence-cli": "^1.0.1",
     "english-irregular-verbs": "^0.2.0",
