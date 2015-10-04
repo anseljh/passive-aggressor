@@ -2,8 +2,6 @@
 
 Passive Aggressor is a passive voice obliterator for contracts in [Common Form](https://github.com/commonform). It is an annotator module for [commonform-critique](https://github.com/commonform/commonform-critique).
 
-So far, Passive Aggressor relies on the simple [passive-voice](https://github.com/btford/passive-voice) module by [btford](https://github.com/btford).
-
 License: Apache 2.0
 
 ## Tests
@@ -13,13 +11,13 @@ var passiveAggressor = require('passive-aggressor')
 var assert = require('assert')
 
 assert.deepEqual(
-  passiveAggressor( { content: [ 'Bob was hit by a bus, and the bird was fed a worm by its mother.' ] } ),
-  [ { message: 'The phrase "was hit" is passive voice.',
+  passiveAggressor( { content: [ 'Bob was seen by three witnesses, and the witnesses were known to be in the area.' ] } ),
+  [ { message: 'The phrase "was seen" is passive voice.',
       level: 'info',
       path: [ 'content', 0 ],
       source: 'passive-aggressor',
       url: null },
-    { message: 'The phrase "was fed" is passive voice.',
+    { message: 'The phrase "were known" is passive voice.',
       level: 'info',
       path: [ 'content', 0 ],
       source: 'passive-aggressor',

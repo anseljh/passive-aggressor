@@ -4,6 +4,8 @@
   "description": " Passive voice obliterator for Common Form",
   "main": "index.js",
   "scripts": {
+    "prepublish": "node build-re.js > re.js",
+    "pretest": "npm run prepublish",
     "test": "defence README.md | replace-require-self | node"
   },
   "repository": {
@@ -26,13 +28,14 @@
   },
   "homepage": "https://github.com/anseljh/passive-aggressor#readme",
   "dependencies": {
-    "passive-voice": "^0.1.0"
+    "commonform-regexp-annotator": "^1.1.0"
   },
   "peerDependencies": {
     "commonform": "1.x"
   },
   "devDependencies": {
     "defence-cli": "^1.0.1",
+    "english-irregular-verbs": "^0.2.0",
     "replace-require-self": "^1.0.0"
   }
 }
